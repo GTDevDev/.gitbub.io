@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About GTOut</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <h1 id="SiteHeader">Type a number</h1>
-    <label>Input Number:</label>
-    <input type="text" id="SiteInput">
-    <button id="SiteButton>Submit</button>
-    
-    <script src="index.js"></script>
 
+<div class="sidebar" id="sidebar">
+  <ul>
+    <li><a href="#"><i class="fas fa-home icon"></i> Home</a></li>
+    <li><a href="#"><i class="fas fa-info-circle icon"></i> About</a></li>
+    <li><a href="#"><i class="fas fa-hand-paper icon"></i> Service</a></li>
+    <li><a href="#"><i class="fas fa-globe icon"></i> Youtube</a></li>
+    <li><a href="#"><i class="fas fa-hammer icon"></i> Projects</a></li>
+    <li><a href="#"><i class="fas fa-envelope icon"></i> Contact</a></li> 
+  </ul>
+</div>
+
+<div class="content">
+  <h1>Welcome!</h1>
+  <p>Welcome to my website! Click the navigation buttons in the sidebar to see other content.</p>
+</div>
+
+<button class="button" onclick="toggleSidebar()">Toggle Sidebar</button>
+
+<script src="script.js"></script>
 </body>
 </html>
