@@ -32,7 +32,7 @@ function updateContent(linkText) {
       marginTop: '50px'
     },
     'Service': {
-      content: '<h1>Services</h1><p>I can do or work on whatever you want me to. The outcome/result of a successful, perfectly working, or good request is not guranteed, requests are free. Contact me in <a href="#">Socials</a> tab.</p> <p>I can do: mods and maps <3</p>',
+      content: '<h1>Services</h1><p>Welcome to my Services page! I specialize in crafting high-quality mods and maps tailored to your needs. I'm dedicated to delivering top-notch results to enhance your gaming experience. What I Offer:Custom Mods: From tweaking gameplay mechanics to creating entirely new features, I bring your ideas to life. Bespoke Maps: Whether you need a detailed world map or a unique level design, I excel in creating immersive environments. Why Choose Me: My Services Are Free! Contact at:</p> <a href="#">Socials</a>',
       bgColor: 'green',
       marginTop: '100px'
     },
