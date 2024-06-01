@@ -3,7 +3,6 @@ const content = document.querySelector('.content');
 const button = document.querySelector('.button');
 
 function toggleSidebar() {
-  var sidebar = document.getElementById('sidebar');
   sidebar.style.width = sidebar.style.width === '100px' ? '0' : '100px';
 }
 
